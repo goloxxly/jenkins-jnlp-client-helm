@@ -14,3 +14,4 @@ RUN mv ./kubectl /usr/local/bin/kubectl
 
 # Helm
 RUN curl https://raw.githubusercontent.com/kubernetes/helm/master/scripts/get | bash
+RUN helm init -c
